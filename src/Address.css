@@ -1,0 +1,85 @@
+.address {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  height: 100vh;
+}
+.address__form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: fit-content;
+  padding: 20px;
+}
+.address__logo {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.address__form  > h2 {
+  margin-bottom: 20px;
+}
+.address__form m > h5 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.address__form  > input {
+  height: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+  padding: 3px;
+  border-radius: 5px;
+}
+form > button {
+  background: #f0c14b;
+  border: 1px solid yellow;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding: 5px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: transparent;
+  outline: transparent;
+  overflow: visible;
+  width: 45%;
+}
+select {
+  height: 25px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 100%;
+  padding: 3px;
+  border-radius: 5px;
+}
+/* .select:focus {
+  border-color: rgb(89, 164, 194);
+} */
+.address__redirectPaymentPage{
+  background: #f0c14b;
+  border-radius: 5px;
+  height: 26px;
+  border: 1px solid yellow;
+  margin-left: 200px;
+  margin-top: -46px;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+  padding: 5px 30px;
+  color: #111;
+  border: transparent;
+  outline: transparent;
+  overflow: visible;
+}
+button:hover {
+  background: linear-gradient(to bottom, yellow, orange);
+}
+  
+
+
+  
+  
